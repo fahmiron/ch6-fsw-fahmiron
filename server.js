@@ -54,7 +54,7 @@ app.get('/players', async (req, res) => {
     })
 })
 
-// TUGAS
+// TUGAS (--unset user.name, user.email, credential.helper)
 // get players under level X
 // '/players/under/:6' --> player with level 6 or lower
 app.get('/players/under/:lvl', (req, res) => {
